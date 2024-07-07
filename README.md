@@ -13,8 +13,11 @@ Intuitive and responsive UI built with React.
 
 ### Technologies Used
 Frontend: React
+
 State Management: Redux
+
 Authentication: Firebase
+
 APIs: OpenAI API for recommendations, TMDB API for movie and TV show data.
 
 ### Getting Started
@@ -29,26 +32,26 @@ To get started with Netflix AI:
 
 3. Set up Firebase:
 
-Create a Firebase project at Firebase Console.
-Obtain your Firebase config object from the Firebase project settings.
-Replace the Firebase config object in src/firebase.js with your own:
+    Create a Firebase project at Firebase Console.
+    Obtain your Firebase config object from the Firebase project settings.
+    Replace the Firebase config object in src/firebase.js with your own:
 
-const firebaseConfig = {
-  apiKey: "your_api_key",
-  authDomain: "your_auth_domain",
-  projectId: "your_project_id",
-  storageBucket: "your_storage_bucket",
-  messagingSenderId: "your_messaging_sender_id",
-  appId: "your_app_id",
-  measurementId: "your_measurement_id"
-};
+    const firebaseConfig = {
+        apiKey: "your_api_key",
+        authDomain: "your_auth_domain",
+        projectId: "your_project_id",
+        storageBucket: "your_storage_bucket",
+        messagingSenderId: "your_messaging_sender_id",
+        appId: "your_app_id",
+        measurementId: "your_measurement_id"
+    };
 
 4. Install dependencies:
 
-npm install
+    npm install
 
 5. Start the development server:
 
-npm run start
+    npm run start
 
 ## Enjoy exploring personalized entertainment with Netflix AI!
