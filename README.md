@@ -1,5 +1,5 @@
 # Netflix AI
-### Netflix AI is a project showcasing personalized movie and TV show recommendations powered by OpenAI's technology.
+Netflix AI is a project showcasing personalized movie and TV show recommendations powered by OpenAI's technology.
 
 ## Features
 ### Personalized Recommendations: 
